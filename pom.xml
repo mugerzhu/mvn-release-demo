@@ -5,7 +5,7 @@
     <groupId>org.example</groupId>
     <artifactId>mvn-release-demo</artifactId>
     <packaging>pom</packaging>
-    <version>1.10-SNAPSHOT</version>
+    <version>1.11-SNAPSHOT</version>
     <modules>
         <module>release-m1</module>
         <module>release-m2</module>
@@ -18,7 +18,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:mugerzhu/mvn-release-demo.git</developerConnection>
-      <tag>my-branch</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <build>
