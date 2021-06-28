@@ -19,7 +19,7 @@
     </properties>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/mugerzhu/mvn-release-demo</developerConnection>
+        <developerConnection>scm:git:git@github.com:mugerzhu/mvn-release-demo.git</developerConnection>
     </scm>
 
     <build>
