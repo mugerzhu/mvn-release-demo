@@ -34,4 +34,15 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>test-release</id>
+            <url>http://localhost:8081/repository/test-release/</url>
+        </repository>
+        <repository>
+            <id>test-snapshot</id>
+            <url>http://localhost:8081/repository/test-snapshot/</url>
+        </repository>
+    </repositories>
+
 </project>
