@@ -45,4 +45,17 @@
         </repository>
     </repositories>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <name>test-snapshot</name>
+            <id>test-snapshot</id>
+            <url>http://localhost:8081/repository/test-snapshot/</url>
+        </snapshotRepository>
+        <repository>
+            <name>test-release</name>
+            <id>test-release</id>
+            <url>http://localhost:8081/repository/test-release/</url>
+        </repository>
+    </distributionManagement>
+
 </project>
