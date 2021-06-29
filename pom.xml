@@ -5,7 +5,7 @@
     <groupId>org.example</groupId>
     <artifactId>mvn-release-demo</artifactId>
     <packaging>pom</packaging>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.4-SNAPSHOT</version>
     <modules>
         <module>release-m1</module>
         <module>release-m2</module>
