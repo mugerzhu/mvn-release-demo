@@ -36,6 +36,7 @@
                     <checkModificationExcludes>
                         <checkModificationExclude>**/pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
+                    <preparationGoals>clean verify release:branch -DbranchName=@{project.version}</preparationGoals>
                 </configuration>
             </plugin>
         </plugins>
