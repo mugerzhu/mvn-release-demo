@@ -18,7 +18,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:mugerzhu/mvn-release-demo.git</developerConnection>
-      <tag>@{project.version}</tag>
+      <tag>test</tag>
   </scm>
 
     <build>
