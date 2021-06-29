@@ -5,7 +5,7 @@
     <groupId>org.example</groupId>
     <artifactId>mvn-release-demo</artifactId>
     <packaging>pom</packaging>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.5-RELEASE</version>
     <modules>
         <module>release-m1</module>
         <module>release-m2</module>
@@ -18,7 +18,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:mugerzhu/mvn-release-demo.git</developerConnection>
-      <tag>1.x</tag>
+      <tag>v1.5-RELEASE</tag>
   </scm>
 
     <build>
@@ -31,6 +31,7 @@
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <arguments>-DskipTests</arguments>
+                    <releaseVersion />
                 </configuration>
             </plugin>
         </plugins>
