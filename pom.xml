@@ -18,7 +18,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:mugerzhu/mvn-release-demo.git</developerConnection>
-      <tag>mvn-1.1-RELEASE</tag>
+      <tag>1.x</tag>
   </scm>
 
     <build>
